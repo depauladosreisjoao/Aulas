@@ -1,0 +1,9 @@
+body {
+  background-color: red;
+}
+
+ul {
+  color: yellow;
+  list-style-type: square;
+  list-style-position: inside;
+}

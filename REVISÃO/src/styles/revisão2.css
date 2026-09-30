@@ -1,0 +1,12 @@
+h1 {
+  background-color: aqua;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-style: italic;
+}
+body {
+  background-image: url(https://img.magnific.com/vetores-gratis/icone-de-vetor-de-desenho-animado-de-automovel-ilustracao-de-veiculo-icone-de-transporte-vector-plano-isolado_138676-13329.jpg?semt=ais_hybrid&w=740&q=80);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
