@@ -1,0 +1,19 @@
+#caixa1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+}
+/* cima*/
+top 20px;
+z-index: 1;
+
+
+
+
+#caixa2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+}
