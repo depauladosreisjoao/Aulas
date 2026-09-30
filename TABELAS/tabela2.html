@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela completa</title>
+
+    <style>
+      body {
+        background-color: rgb(200, 248, 248);
+      }
+
+      table {
+        width: 400px;
+        font-size: 15px;
+      }
+
+      td {
+        width: 20px;
+        text-align: center;
+        vertical-align: center;
+      }
+
+      table,
+      td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+      }
+
+      thead {
+        background-color: darkkhaki;
+      }
+
+      tbody {
+        background-color: #ffffff;
+        color: #000000;
+      }
+      tfoot {
+        background-color: #fff;
+      }
+
+      .titulo {
+        background-color: #a7bd6c;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!-- Titulo da tabela-->
+      <caption>
+        Titulo da tabela
+      </caption>
+
+      <!-- Cabeçalho da tabela-->
+      <thead>
+        <tr>
+          <th>Mês</th>
+          <th>Serviço</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+
+      <!-- Corpo da tabela-->
+      <tbody>
+        <tr class="titulo">
+          <td>Janeiro</td>
+          <td>Consultoria</td>
+          <td>R$ 2.000</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">Fevereiro</td>
+          <td>Desenvolvimento</td>
+          <td>R$ 8.000</td>
+        </tr>
+
+        <tr>
+          <td>Suporte</td>
+          <td>R$ 3.000</td>
+        </tr>
+
+        <tr class="titulo">
+          <td>Março</td>
+          <td>FRont-and</td>
+          <td>R$ 9.000</td>
+        </tr>
+      </tbody>
+
+      <!-- Rodapé da tabela-->
+      <tfoot>
+        <tr>
+          <th colspan="2">Total geral</th>
+          <td>R$ 15.000</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
