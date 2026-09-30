@@ -1,0 +1,36 @@
+#Header {
+  background-color: red;
+  position: absolute;
+  text-align: center;
+  top: 5%;
+  width: 80%;
+  height: 15%;
+  left: 10%;
+}
+
+#Nav {
+  background-color: rgb(red green blue / alpha);
+  position: absolute;
+  top: 20%;
+  width: 80%;
+  height: 8%;
+  left: 10%;
+}
+
+#Esquedo {
+  background-color: green;
+  position: absolute;
+  top: 28%;
+  width: 30%;
+  height: 55%;
+  left: 10%;
+}
+
+#Direito {
+  background-color: yellow;
+  position: absolute;
+  top: 28%;
+  width: 50%;
+  height: 55%;
+  left: 40%;
+}
