@@ -33,7 +33,7 @@ main {
 
 #div3 {
   position: relative;
-  width: 60%;
+  width: 40%;
   height: 400px;
   background-color: green;
   text-align: left;
@@ -41,7 +41,7 @@ main {
 
 #div4 {
   position: relative;
-  width: 40%;
+  width: 60%;
   height: 400px;
   background-color: yellow;
   text-align: left;
