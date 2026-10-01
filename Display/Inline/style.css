@@ -1,0 +1,9 @@
+a {
+  display: inline;
+  border: 1px solid red;
+}
+
+p {
+  display: block;
+  border: 1px solid red;
+}
