@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog do J</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header id="Cabecalho">
+      <h1>Blog do JJ</h1>
+
+      <!--Navbar - NAV-->
+      <nav>
+        <ul id="Nav_p">
+          <!--Link 1-->
+          <li>
+            <a href="#">Inicio</a>
+          </li>
+          <!--Link 2-->
+          <li>
+            <a href="#">Artigos</a>
+          </li>
+          <!--Link 3-->
+          <li>
+            <a href="#">Sobre nós</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--Tag MAIN - Agrupa o conteudo principal da pagina-->
+    <main>
+      <!-- SEction - -agruoa elementos do mesmo assunto-->
+      <section id="sec1">
+        <h2>Ultimas postagens</h2>
+
+        <!-- Aeticle - Conteudo independente-->
+        <article class="art">
+          <!--Header dentro do article-->
+          <header>
+            <h3>Como criar o primeiro site de forma simples?</h3>
+            <p>
+              Publicado em
+              <time datetime="2026-10-02"> 02 de Outubro de 2026</time>
+            </p>
+          </header>
+
+          <p>Hoje aprendermos a como criar um site usando HTML e CSS</p>
+          <a href="#">Saiba mais</a>
+        </article>
+
+        <!-- Segundo Article-->
+
+        <article class="art">
+          <!--Header dentro do article-->
+          <header>
+            <h3>Aprenda a magica do CSS</h3>
+            <p>
+              Publicado em
+              <time datetime="2026-10-01"> 01 de Outubro de 2026</time>
+            </p>
+          </header>
+
+          <p>Aprendermos a estilizar usando o CSS...</p>
+          <a href="#">Saiba mais</a>
+        </article>
+      </section>
+    </main>
+
+    <!--Conteudo lateral -  relaçao com o tema principal-->
+    <aside>
+      <section id="sec2">
+        <h3>Sobre o Autor do BLOG</h3>
+        <figure>
+          <img
+            src="https://aeroin.net/forca-aerea-brasileira-cria-campanha-para-dar-visibilidade-a-atuacao-da-instituicao-em-missoes/"
+            alt="A elite das Armas (FAB)"
+          />
+          <figcaption>J.Pedro, Autor do BLOG</figcaption>
+        </figure>
+
+        <div id="cont_details">
+          <!--Detalhes - perguntas com respostas-->
+          <details open>
+            <summary>Quem é</summary>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus esse est assumenda quibusdam fugiat placeat sequi
+              veritatis fugit quisquam quae? Modi asperiores voluptatem quisquam
+              aliquid provident dolor eos sit ut?
+            </p>
+          </details>
+
+          <details>
+            <summary>Qual é sua trajetoria?</summary>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio, recusandae maiores? Hic, earum. Eum quos ab cum
+              aliquid, voluptatem sed nostrum deleniti eius maiores harum et
+              illum minus nesciunt omnis.
+            </p>
+          </details>
+        </div>
+      </section>
+    </aside>
+
+    <!--Footer-->
+    <footer>&copy J BLOG. Todos os direitos Reservados</footer>
+  </body>
+</html>
