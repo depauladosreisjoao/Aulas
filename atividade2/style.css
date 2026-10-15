@@ -83,3 +83,16 @@ footer {
   position: relative;
   width: 100%;
 }
+
+/*responsividade*/
+
+@midia (max-width: 400px) {
+  #container {
+    flex-direction: column;
+  }
+
+  #section1,
+  #section2 {
+    width: 100%;
+  }
+}
